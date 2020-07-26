@@ -1,0 +1,67 @@
+.headingArea{
+    width: 40%;
+    margin: auto;
+}
+#headingSection{
+    height: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+.sqaureArea{
+    width: 40%;
+}
+.colorBox{
+    height: 100px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 50px;
+    
+}
+.colorRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorBox:focus{
+    outline: none;
+}
+.bg-gray {
+    background: gray;
+    height: 20px;
+    width: 40%;
+    color: white;
+    display: flex;
+    height: inherit;
+    text-align: center;
+    
+}
+.message{
+    height: inherit;
+    text-align: center;
+}
+#resetBtn{
+    float: right;
+    background-color: grey;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+#Easy{
+    background-color: grey;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+#Hard{
+    background-color: grey;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
